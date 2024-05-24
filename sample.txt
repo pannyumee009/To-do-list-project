@@ -1,0 +1,34 @@
+Todo List 
+
+* JSON server ( API | CRUD => Create Read Update Delete )
+
+* Fetch Await ( )
+
+* Axiios ( NPM => official => API | React | Vue | Angular )
+
+Resource
+
+get list => http://localhost:4000/todolist
+
+server
+npx json-server -p 4000 -w src/data/db.json
+npm i json-server
+npm i axios
+
+===================
+<div>
+      {tasks.map((task) =>  {} <=(don't add this here because we need to call that it became a function, without it, it will return automatically, shortcut)
+        <div key={task.id} className="list-group-item w-100 mt-3 shadow-sm">
+          <div className="row">
+            <div className="col-9 offset-1">{task.task}</div>
+            <div className="col-2">
+              <i className="fa-solid fa-trash-can"></i>
+            </div>
+          </div>
+        </div>)}
+
+=============
+npm i react-uuid(install uuid package)
+npm i axios (axios install)
+npm i json-server (json server install)
+npx json-server -p 4000 -w src/data/name.json (json servers start)
